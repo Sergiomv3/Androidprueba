@@ -47,4 +47,15 @@
         android:layout_marginTop="65dp"
         android:layout_below="@+id/imageView"
         android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tv1"
+        android:id="@+id/textView4"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
 </RelativeLayout>
